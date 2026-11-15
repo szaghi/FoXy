@@ -5,7 +5,7 @@ copyright = "Copyright © 2016, Stefano Zaghi"
 license = "Multiple licenses"
 description = "Fortran XML parser for poor people"
 maintainer = "Stefano Zaghi"
-homepage = "https://github.com/Fortran-FOSS-Programmers/FoXy"
+homepage = "https://github.com/szaghi/FoXy"
 
 [library]
 source-dir = "src/lib"

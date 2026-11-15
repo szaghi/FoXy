@@ -1,7 +1,7 @@
 # 8. Namespaces
 
 A coupled run mixes two solvers in one file, each vocabulary in its namespace,
-[`coupled.xml`](https://github.com/Fortran-FOSS-Programmers/FoXy/blob/master/docs/examples/files/coupled.xml):
+[`coupled.xml`](https://github.com/szaghi/FoXy/blob/master/docs/examples/files/coupled.xml):
 
 <<< @/examples/files/coupled.xml
 

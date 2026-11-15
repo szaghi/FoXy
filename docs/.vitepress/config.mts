@@ -79,7 +79,7 @@ export default withMermaid({
   themeConfig: {
     logo: '/logo.svg',
     siteTitle: 'FoXy',
-    socialLinks: [{ icon: 'github', link: 'https://github.com/Fortran-FOSS-Programmers/FoXy' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/szaghi/FoXy' }],
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Start here', link: '/guide/', activeMatch: '^/guide/(index|installation)' },

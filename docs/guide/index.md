@@ -44,7 +44,7 @@ This documentation reads in order, and each page links to the next one:
 
 The [API](/api/) documents the source itself. Every code sample of the tutorial, of the cookbook and of the reference is
 part of a program that is compiled and run to produce the outputs shown (see
-[`docs/examples`](https://github.com/Fortran-FOSS-Programmers/FoXy/tree/master/docs/examples)).
+[`docs/examples`](https://github.com/szaghi/FoXy/tree/master/docs/examples)).
 
 ## Authors
 

@@ -1,6 +1,6 @@
 # 9. Robust input and text
 
-Case files are written by hand, and hands make mistakes. [`broken.xml`](https://github.com/Fortran-FOSS-Programmers/FoXy/blob/master/docs/examples/files/broken.xml)
+Case files are written by hand, and hands make mistakes. [`broken.xml`](https://github.com/szaghi/FoXy/blob/master/docs/examples/files/broken.xml)
 forgets an end tag:
 
 <<< @/examples/files/broken.xml

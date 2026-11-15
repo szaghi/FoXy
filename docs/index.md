@@ -23,7 +23,7 @@ hero:
       link: /api/
     - theme: alt
       text: View on GitHub
-      link: https://github.com/Fortran-FOSS-Programmers/FoXy
+      link: https://github.com/szaghi/FoXy
 
 features:
   - icon: 📄
@@ -75,7 +75,7 @@ features:
 
 ## In a nutshell
 
-Read the settings of a case file, [`case.xml`](https://github.com/Fortran-FOSS-Programmers/FoXy/blob/master/docs/examples/files/case.xml)
+Read the settings of a case file, [`case.xml`](https://github.com/szaghi/FoXy/blob/master/docs/examples/files/case.xml)
 (the input of the [tutorial](/manual/tutorial/02-reading)), as numbers:
 
 <<< @/examples/snippets/read_number.f90
@@ -93,4 +93,4 @@ a number, a path expression, a regular expression, a malformed file, and a UTF-1
 <img src="./examples/images/tour.svg" alt="a terminal session of fx, a tool built on FoXy: the tree of case.xml, case/time/dt read as a real, select of the wall boundaries, contents matching a regular expression, the problem of a malformed file with its line, and the events of a UTF-16 file">
 </div>
 
-The whole tool is one program: [`tour.f90`](https://github.com/Fortran-FOSS-Programmers/FoXy/blob/master/docs/examples/src/tour.f90).
+The whole tool is one program: [`tour.f90`](https://github.com/szaghi/FoXy/blob/master/docs/examples/src/tour.f90).

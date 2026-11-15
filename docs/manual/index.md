@@ -44,8 +44,8 @@ tags, change a value and save, write a large file, read only what you need of a 
 
 ## Building the examples
 
-Every program of the tutorial and of the cookbook is in [`docs/examples/src`](https://github.com/Fortran-FOSS-Programmers/FoXy/tree/master/docs/examples/src),
-their input files in [`docs/examples/files`](https://github.com/Fortran-FOSS-Programmers/FoXy/tree/master/docs/examples/files).
+Every program of the tutorial and of the cookbook is in [`docs/examples/src`](https://github.com/szaghi/FoXy/tree/master/docs/examples/src),
+their input files in [`docs/examples/files`](https://github.com/szaghi/FoXy/tree/master/docs/examples/files).
 With FoXy built by FoBiS (`fobis build --mode foxy-static-gnu`, see [Installation](/guide/installation)):
 
 ```bash

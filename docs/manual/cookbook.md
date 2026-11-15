@@ -6,7 +6,7 @@ title: Cookbook
 
 Short answers to "how do I ...?". Each recipe is a complete program with its real output; the
 [reference](/guide/features#feature-map) has the details. The files they read are in
-[`docs/examples/files`](https://github.com/Fortran-FOSS-Programmers/FoXy/tree/master/docs/examples/files) (`case.xml` and
+[`docs/examples/files`](https://github.com/szaghi/FoXy/tree/master/docs/examples/files) (`case.xml` and
 `coupled.xml` of the [tutorial](./index), `broken.xml`, `station-*.xml`), or are written by an earlier program:
 `results.xml` by [chapter 5](./tutorial/05-writing) of the tutorial, `appended.xml` by *Write binary data inside a
 document*.

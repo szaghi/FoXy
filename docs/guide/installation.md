@@ -13,7 +13,7 @@ Add FoXy to the dependencies of your `fpm.toml`; fpm fetches it, and its depende
 
 ```toml
 [dependencies]
-FoXy = { git = "https://github.com/Fortran-FOSS-Programmers/FoXy" }
+FoXy = { git = "https://github.com/szaghi/FoXy" }
 ```
 
 ## FoBiS
@@ -22,7 +22,7 @@ FoXy = { git = "https://github.com/Fortran-FOSS-Programmers/FoXy" }
 dependencies (declared in `fobos`, cloned into `src/third_party/`):
 
 ```bash
-git clone https://github.com/Fortran-FOSS-Programmers/FoXy
+git clone https://github.com/szaghi/FoXy
 cd FoXy
 fobis fetch
 ```
@@ -51,7 +51,7 @@ fobis build --mode tests-nvidia && bash scripts/run_tests.sh       # nvfortran, 
 CMake uses the dependencies in `src/third_party/`: fetch them first.
 
 ```bash
-git clone https://github.com/Fortran-FOSS-Programmers/FoXy
+git clone https://github.com/szaghi/FoXy
 cd FoXy
 fobis fetch
 cmake -S . -B build

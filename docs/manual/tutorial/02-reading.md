@@ -1,6 +1,6 @@
 # 2. Reading the case file
 
-The case lives in a file, [`case.xml`](https://github.com/Fortran-FOSS-Programmers/FoXy/blob/master/docs/examples/files/case.xml):
+The case lives in a file, [`case.xml`](https://github.com/szaghi/FoXy/blob/master/docs/examples/files/case.xml):
 
 <<< @/examples/files/case.xml
 

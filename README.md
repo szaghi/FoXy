@@ -5,10 +5,10 @@
 # FoXy
 #### Fortran XML for poor people
 
-[![GitHub tag](https://img.shields.io/github/v/tag/Fortran-FOSS-Programmers/FoXy)](https://github.com/Fortran-FOSS-Programmers/FoXy/tags)
-[![GitHub issues](https://img.shields.io/github/issues/Fortran-FOSS-Programmers/FoXy)](https://github.com/Fortran-FOSS-Programmers/FoXy/issues)
-[![CI](https://github.com/Fortran-FOSS-Programmers/FoXy/actions/workflows/ci.yml/badge.svg)](https://github.com/Fortran-FOSS-Programmers/FoXy/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/endpoint?url=https://Fortran-FOSS-Programmers.github.io/FoXy/coverage.json)](https://github.com/Fortran-FOSS-Programmers/FoXy/actions/workflows/ci.yml)
+[![GitHub tag](https://img.shields.io/github/v/tag/szaghi/FoXy)](https://github.com/szaghi/FoXy/tags)
+[![GitHub issues](https://img.shields.io/github/issues/szaghi/FoXy)](https://github.com/szaghi/FoXy/issues)
+[![CI](https://github.com/szaghi/FoXy/actions/workflows/ci.yml/badge.svg)](https://github.com/szaghi/FoXy/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/endpoint?url=https://szaghi.github.io/FoXy/coverage.json)](https://github.com/szaghi/FoXy/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/license-GPLv3%20%7C%20BSD%20%7C%20MIT-blue.svg)](#copyrights)
 
 > Read, query, edit and write XML from modern Fortran: a DOM for documents, an index for huge files, a streaming parser
@@ -22,11 +22,11 @@
 
 <p align="center"><img src="docs/examples/images/tour.svg" alt="a terminal session of fx, a tool built on FoXy: the tree of a case file, a value read as a number, a path expression, a regular expression, a malformed file and a UTF-16 file streamed through a handler"></p>
 
->#### [Documentation](https://Fortran-FOSS-Programmers.github.io/FoXy/)
-> The [tutorial](https://Fortran-FOSS-Programmers.github.io/FoXy/manual/tutorial/01-first-document), the
-> [cookbook](https://Fortran-FOSS-Programmers.github.io/FoXy/manual/cookbook) and the
-> [reference](https://Fortran-FOSS-Programmers.github.io/FoXy/guide/features) are on the
-> [FoXy website](https://Fortran-FOSS-Programmers.github.io/FoXy/).
+>#### [Documentation](https://szaghi.github.io/FoXy/)
+> The [tutorial](https://szaghi.github.io/FoXy/manual/tutorial/01-first-document), the
+> [cookbook](https://szaghi.github.io/FoXy/manual/cookbook) and the
+> [reference](https://szaghi.github.io/FoXy/guide/features) are on the
+> [FoXy website](https://szaghi.github.io/FoXy/).
 
 ---
 
@@ -45,8 +45,8 @@ call doc%get_content(id=doc%find(path='case/time/dt'), value=dt)
 call doc%get_content(id=doc%find(path='case/time/steps'), value=steps)
 ```
 
-Learn the rest in the [tutorial](https://Fortran-FOSS-Programmers.github.io/FoXy/manual/tutorial/01-first-document),
-or find a task in the [cookbook](https://Fortran-FOSS-Programmers.github.io/FoXy/manual/cookbook).
+Learn the rest in the [tutorial](https://szaghi.github.io/FoXy/manual/tutorial/01-first-document),
+or find a task in the [cookbook](https://szaghi.github.io/FoXy/manual/cookbook).
 
 ---
 
@@ -56,13 +56,13 @@ or find a task in the [cookbook](https://Fortran-FOSS-Programmers.github.io/FoXy
 
 ```toml
 [dependencies]
-FoXy = { git = "https://github.com/Fortran-FOSS-Programmers/FoXy" }
+FoXy = { git = "https://github.com/szaghi/FoXy" }
 ```
 
 **FoBiS**: clone, fetch the dependencies, build the library (`lib/libfoxy.a`, modules in `lib/mod`) or the tests.
 
 ```bash
-git clone https://github.com/Fortran-FOSS-Programmers/FoXy && cd FoXy
+git clone https://github.com/szaghi/FoXy && cd FoXy
 fobis fetch
 fobis build --mode foxy-static-gnu
 fobis build --mode tests-gnu && bash scripts/run_tests.sh
@@ -76,7 +76,7 @@ gfortran -I lib/mod my_program.f90 lib/libfoxy.a -o my_program
 
 **CMake**: fetch the dependencies first (`fobis fetch`), then `cmake -S . -B build && cmake --build build`.
 
-See [Installation](https://Fortran-FOSS-Programmers.github.io/FoXy/guide/installation) for compilers and options.
+See [Installation](https://szaghi.github.io/FoXy/guide/installation) for compilers and options.
 
 ---
 
@@ -85,7 +85,7 @@ See [Installation](https://Fortran-FOSS-Programmers.github.io/FoXy/guide/install
 - Stefano Zaghi — [@szaghi](https://github.com/szaghi)
 - Fortran FOSS Programmers — [https://github.com/Fortran-FOSS-Programmers](https://github.com/Fortran-FOSS-Programmers)
 
-Contributions are welcome — see the [Contributing](https://Fortran-FOSS-Programmers.github.io/FoXy/guide/contributing) page.
+Contributions are welcome — see the [Contributing](https://szaghi.github.io/FoXy/guide/contributing) page.
 
 ## Copyrights
 

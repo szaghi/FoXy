@@ -2,8 +2,8 @@
 name       = FoXy
 version    = VERSION
 summary    = Fortran XML parser for poor people
-repository = https://github.com/Fortran-FOSS-Programmers/FoXy
-website    = https://fortran-foss-programmers.github.io/FoXy/
+repository = https://github.com/szaghi/FoXy
+website    = https://szaghi.github.io/FoXy/
 email      = stefano.zaghi@gmail.it
 authors    = Stefano Zaghi
 
