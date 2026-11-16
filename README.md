@@ -52,6 +52,21 @@ or find a task in the [cookbook](https://szaghi.github.io/FoXy/manual/cookbook).
 
 ## Install
 
+**One-line install**:
+
+```bash
+curl -fsSL https://github.com/szaghi/FoXy/releases/latest/download/install.sh | bash
+```
+
+It installs the latest release into `~/.local` with the build system you choose among those FoXy ships
+(`--build fobis|fpm|cmake`: a menu asks when you do not say), the compiler you name (`--fc`, `--gnu`, `--intel`,
+`--nvidia`), one install per compiler (`lib/foxy/<compiler>-<version>/`, `include/foxy/<compiler>-<version>/`), and
+makes it usable through pkg-config (`pkg-config --cflags --libs foxy`, with `PKG_CONFIG_PATH=$HOME/.local/lib/pkgconfig`).
+The release carries FoXy's dependencies (BeFoR64, FACE, PENF, StringiFor), so CMake needs no network. The fobis build
+has a GNU library mode only: with ifx or nvfortran use `--build fpm` or `--build cmake`. Pass options after
+`bash -s --`, e.g. `... | bash -s -- --build cmake --prefix /opt/foxy`; `--help` lists them all, `--uninstall`
+removes the install. The installer is FoBiS's ([One-line installer](https://szaghi.github.io/FoBiS/cookbook/installer)).
+
 **fpm**: add FoXy to your `fpm.toml`.
 
 ```toml

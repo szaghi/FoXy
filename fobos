@@ -12,6 +12,10 @@ toolchain     = linux-gnu
 docs_examples = docs/examples
 fpm           = true
 
+# the one-line installer, scripts/install.sh (FoBiS#217): FoXy's static library mode for the fobis build
+[installer]
+mode_gnu = foxy-static-gnu
+
 [dependencies]
 deps_dir   = src/third_party
 BeFoR64    = https://github.com/szaghi/BeFoR64
